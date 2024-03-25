@@ -1,0 +1,20 @@
+// Hello World
+Hello World
+        // tabbed comment
+        tabbed text
+
+        /* Hello */
+
+/*
+multi
+line
+comment
+*/
+
+/*
+AAAA
+//TTTTTTTTT
+owhreow
+wr;oihqwr
+qweoruhq
+*/
