@@ -70,7 +70,13 @@ def main() -> int:
             begin = args.Beginning[0]
             end = args.Ending[0]
 
-            # Remove comments that are bracket on one line
+            # Preliminary count
+            bracket_pair_counter = 0
+            changed_file = open(changed, 'r')
+            for line in changed_file:
+
+
+        # Remove comments that are bracket on one line
             changed_file = open(changed, 'r')
             temp_file = open(temp, 'w')
 
@@ -78,7 +84,9 @@ def main() -> int:
                 while True:
                     if (begin in line) and (end in line):
                         before = line.split(begin)[0]
+                        before = before.replace(begin, "")
                         after = before[1].split(end)[0]
+                        after = after.replace(end, "")
                         removed = before + after
                         temp_file.write(removed)
                     else:

@@ -1,20 +1,22 @@
-// Hello World
+// Comment number 1
 Hello World
         // tabbed comment
         tabbed text
 
-        /* Hello */
+/* Bracket comment on one line. */
 
 /*
-multi
+multiple
 line
 comment
 */
 
+This is a line/* with a  comment right in the middle*/.
+
 /*
-AAAA
-//TTTTTTTTT
-owhreow
-wr;oihqwr
-qweoruhq
+This documentation
+// Has an old comment in side it.
+Single one should leave this alone.
 */
+
+// This comment /* contains a bracket for some reason.
