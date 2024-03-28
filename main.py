@@ -70,13 +70,13 @@ def main() -> int:
             begin = args.Beginning[0]
             end = args.Ending[0]
 
-            # Preliminary count
-            bracket_pair_counter = 0
-            changed_file = open(changed, 'r')
-            for line in changed_file:
+            # # Preliminary count
+            # bracket_pair_counter = 0
+            # changed_file = open(changed, 'r')
+            # for line in changed_file:
 
 
-        # Remove comments that are bracket on one line
+            # Remove comments that are bracket on one line
             changed_file = open(changed, 'r')
             temp_file = open(temp, 'w')
 
